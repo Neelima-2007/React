@@ -6,6 +6,11 @@ function App() {
   return (
    <div>
      <div className="container-fluid">
+      <div className="row">
+      <div className="col-md-12">
+        
+      </div>
+      </div>
             <div className="row">
                 <div className="col-md-2">
                 < ul class="nav-item dropdown">
@@ -40,6 +45,7 @@ function App() {
             <li><a class="dropdown-item" href="#">Color Modes</a></li>
             <li><a class="dropdown-item" href="#">Components</a></li>
             <li><a class="dropdown-item" href="#">CSS Variable</a></li>
+            <li><a class="dropdown-item" href="#">Optimize</a></li>
             <li><a class="dropdown-item" href="#">Optimize</a></li>
             
           </ul>
@@ -103,7 +109,7 @@ function App() {
         <li><a class="dropdown-item" href="#">Navbar</a></li>
         </ul>
         
-        <ul>
+        {/* <ul>
         <a class="dropdown-item" href="#"><h5>Utilities</h5></a>
         
         <li><a class="dropdown-item" href="#">API</a></li>
@@ -140,12 +146,24 @@ function App() {
         
         </ul>
         
+        <ul>
+        <a class="dropdown-item" href="#"><h5>Extend</h5></a>
+        
+        <li><a class="dropdown-item" href="#">Approach</a></li>
+        <li><a class="dropdown-item" href="#">Icons</a></li>
         
         
+        </ul>
         
         
+        <ul>
+        <a class="dropdown-item" href="#"><h5>About</h5></a>
         
-
+        <li><a class="dropdown-item" href="#">Translations</a></li>
+        <li><a class="dropdown-item" href="#">Icons</a></li>
+        
+        
+        </ul> */}
                 </div>
                 <div className="col-md-10">
             
@@ -153,9 +171,6 @@ function App() {
           {/* <nav class="navbar navbar-expand-lg bg-light"> */}
           <nav class="navbar navbar-expand-lg bg-custom">
           
-
-
-
           <div class="container-fluid">
     <a class="navbar-brand" href="#">Home Page</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
